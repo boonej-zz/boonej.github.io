@@ -1,23 +1,31 @@
 ---
 layout: default
+title: code hard | drink hard
+subtitle: musings of a serious programmer
 ---
 
-<div class="home">
+<section class="post-list">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header intro">
+    <div class="intro-in">
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.subtitle %}
+        <h2 class="intro-subtitle">{{ page.subtitle }}</h2>
+      {% endif %}
+    </div>
+  </header>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
+  {% for post in site.posts %}
+    <article class="post-item container">
+      <header>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
+        <h1 class="post-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        </h1>
+      </header>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <p>{{ post.content | strip_html | truncatewords: 56 }} <a href="{{ post.url | prepend: site.baseurl }}" title="Permalink to: {{ post.title }}" class="read-more">Read more</a></p>
+    </article>
+  {% endfor %}
 
-</div>
+</section>

@@ -11,9 +11,26 @@ email: the.booneage@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Musings and observations of a self-proclaimed programmer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jonathaneboone
 github_username:  boonej
-
-# Build settings
 markdown: kramdown
+
+sass:
+  sass_dir: _sass
+  style: expanded
+
+permalink     : /:year/:title/
+highlighter   : pygments
+
+title         : code hard | drink hard
+
+author:
+  name        : JB Boone
+  job         : serious programmer
+  thumb       : "https://en.gravatar.com/userimage/7218333/b42e92103062c7b1f1f6a2b6d5a05154.jpeg"
+  email       : the.booneage@gmail.com
+  url         : http://www.codehard-drinkhard.com
+  github      : http://github.com/boonej
+  twitter     : http://twitter.com/jonathaneboone
+  facebook    : http://facebook.com/boonej
+  linkedin    : http://linkedin.com/in/boonej
