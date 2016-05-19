@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+_site
+.sass-cache
+.jekyll-metadata
+.DS_Store
+.swp
+=======
+_site/
+.sass-cache/
+.jekyll-metadata
+>>>>>>> 87411c6252db7543c8cba4ef7aacee01ab1ea13b
