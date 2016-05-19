@@ -32,7 +32,7 @@ treatment
 
 When all you see is nails, it gets pretty hard to innovate. We got stuck in a rut and 
 needed something else. I wrote a few solutions with pure PHP and no framework, but 
-it just took forever. I connot overstate the need to use frameworks to take away some
+it just took forever. I cannot overstate the need to use frameworks to take away some
 of the drudgery of writing code. I also cannot overstate the need to understand 
 **EVERYTHING** the framework is doing for you.
 
