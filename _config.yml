@@ -10,6 +10,7 @@ title: code_hard | drink_hard
 email: the.booneage@gmail.com 
 description: > # this means to ignore newlines until "baseurl:"
   Musings and observations of a self-proclaimed programmer.
+url: http://www.codehard-drinkhard.com
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: jonathaneboone
 github_username:  boonej
