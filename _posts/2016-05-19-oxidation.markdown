@@ -32,7 +32,7 @@ How do you stop it, you ask? Slap some grease on that puppy.
 There are plenty of ways to lubricate a brain. Just about anything that 
 you can do do generate original thought or make your brain work will work. 
 You could make it applicable to your current project, or an old project, or
-nothing at all. You just *have* to do it.
+nothing at all. You just have to *do it*.
 
 It gets worse as you get older and more experienced. All knowledge becomes
 precious and fleeting. It takes less and less time for rust to set in -- and
