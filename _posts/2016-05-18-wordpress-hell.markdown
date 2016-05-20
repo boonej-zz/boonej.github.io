@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "wordpress === hell"
-date:   2016-05-18 19:18:12 -0500
+date:   2016-05-18 19:18:12 -0600
 categories: rants
 ---
 
 > I suppose it is tempting, if the only tool you have is a hammer, to treat 
 > everything as if it were a nail.
 > <br /><br />
-> Abraham Maslow
+> -- Abraham Maslow
 
 
 infection

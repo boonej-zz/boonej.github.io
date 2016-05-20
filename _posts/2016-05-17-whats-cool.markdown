@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "howdy! you like tech blogs? you like beer?"
-date:   2016-05-17 14:42:13 -0500
+date:   2016-05-17 14:42:13 -0600
 categories: whatever
 ---
 
