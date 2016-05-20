@@ -18,7 +18,7 @@ markdown: kramdown
 
 sass:
   sass_dir: _sass
-  style: expanded
+  style: compressed
 
 permalink     : /:year/:title/
 highlighter   : pygments
