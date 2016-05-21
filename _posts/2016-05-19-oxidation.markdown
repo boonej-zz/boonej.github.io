@@ -2,7 +2,7 @@
 layout: post
 title:  "mental oxidation"
 date:   2016-05-19 19:18:12 -0600
-categories: rants
+categories: bettercoding
 ---
 
 > Idleness is to the human mind like rust to iron.
