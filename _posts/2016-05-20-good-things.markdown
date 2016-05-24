@@ -1,6 +1,6 @@
 ---
 layout          : post
-title           : bad things, meet good code
+title           : "bad things, meet good code"
 date            : 2016-05-20 23:33:16 -0600
 categories      : bettercoding 
 ---
