@@ -13,8 +13,9 @@ layout: default
 
   <div class="post-content container" itemprop="articleBody">
     {{ content }}
+
+    <div id="disqus_thread"></div>
   </div>
-  <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
       this.page.url = window.location.href;
@@ -23,9 +24,8 @@ layout: default
     };
     (function() { 
       var s = document.createElement('script');
-      alert(s);
-      s.src = '//codeharddrinkhard.disqus.com/embed.js';
-      s[0].setAttribute('data-timestamp', +new Date())
+      s.src = 'https://codeharddrinkhard.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
       (document.head || document.body).appendChild(s);
     })();
   </script>
